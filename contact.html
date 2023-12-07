@@ -1,0 +1,97 @@
+<!-- Chirag Tarsemlal Sagar
+c0919742 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/contact.css" >
+    <link rel="icon" type="image/x-icon" href="Images/icons8-vacuum-stickers-96.png">
+    <title>CycloneSweep: Contact</title>
+</head>
+<body>
+    <header>
+        <img class="banner" src="images/CycloneSweep.jpg" alt="Website banner">
+    </header>
+
+    <nav>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Website Logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+    </nav>
+
+    <main>
+        <h2>Fill In The Form To Contact Us!</h2>
+        <form class="grid">
+            <fieldset>
+                <legend>Contact Information:</legend>
+                
+                <!-- Text Input -->
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" size="30" placeholder="First Name - Last Name" required>
+
+                <!-- Radio Buttons -->
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <br>
+
+                <!-- Checkbox -->
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Subscribe To Newsletter</label>
+                <br>
+
+                <!-- Date Input -->
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="Date">
+                <br>
+                
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+            </fieldset>
+        
+            <!-- Dropdown List -->
+            <fieldset>
+                <legend>Additional Information:</legend>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                  <option value="usa">United States</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">United Kingdom</option>
+                </select>
+
+                <!-- Textarea -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="30" placeholder="Type your message here..."></textarea>
+            
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            
+                <!-- Reset Button -->
+                <button type="reset">Reset</button>
+            </fieldset>
+          </form>
+    </main>
+
+    <footer>
+        <p> &copy; Copyright 2023. All Rights Reserved.</p> 
+        <a href="mailto:info@CycloneSweep.com">Request Information.</a>
+        <p>Chirag Tarsemlal Sagar &nbsp;&nbsp; C0919742</p>
+    </footer>
+</body>
+</html>
